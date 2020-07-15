@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais</title>
+</head>
+<body>
+    <script>/*
+        function retornaSexo (sexo){
+            if (sexo == 'f'){
+                return 'Feminino'
+            }
+            else if(sexo == 'm'){
+                return 'Masculino'
+            }
+            else{
+                return 'Outro'
+            }
+        }
+        console.log(retornaSexo('m'))*/
+
+        //switch Case
+        function retornaSexo (sexo){
+            switch (sexo){
+                case 'm':
+                    return 'Masculino'
+                case 'f': 
+                    return 'Feminino'
+                default:
+                    return 'Outro'
+            }
+        }
+        console.log(retornaSexo('f'))
+    </script>
+</body>
+</html>
